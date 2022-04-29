@@ -480,3 +480,108 @@ h4{
     margin-bottom: 117px;
     color: #000000;
 }
+
+.TSalario{
+    display: flex;
+    margin-left: 526px;
+    margin-top: 113px;
+}
+
+.T_Salario{
+    margin-left: 561px;
+    margin-top: 61px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #1B314F;
+}
+
+.Mensual{
+    width: 460px;
+    height: 54px;
+    margin-left: 526px;
+    background: #F5F5F5;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+button{
+    width: 272px;
+    height: 49px;
+    margin-left: 620px;
+    margin-top: 30px;
+    background: #6E29A9;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+
+
+
+    color: #FFFFFF;
+    margin-bottom: 46px;
+}
+
+.Contenedor_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+    
+}
+
+.Contenedor_info p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #1B314F;
+    margin-bottom: 20px;
+
+}
+
+.result{
+    width: 460px;
+    height: 54px;
+
+    background: #595959;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 7px;
+    
+    margin-bottom: 30px;
+}
+
+.result p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-right: 5px;
+}

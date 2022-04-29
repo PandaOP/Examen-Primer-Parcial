@@ -6,6 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="app/app.css">
+    <style>
+
+        input[type=number]::-webkit-outer-spin-button,
+        
+        input[type=number]::-webkit-inner-spin-button {
+        
+            -webkit-appearance: none;
+        
+            margin: 0;
+        
+        }
+        
+         
+        
+        input[type=number] {
+        
+            -moz-appearance:textfield;
+        
+        }
+        
+        </style>
+        
 </head>
 <body>
     <header>
@@ -22,6 +44,51 @@
         </nav>
     </header>
 
+    <h2 class="TSalario">
+        <p class="P2_p">Calcular Salario</p>
+        
+    </h2>
+
+    <h3 class="T_Salario">Ingrese su salario mensual</h3>
+    
+    <input type="number" id="Salario_mensual" class="Mensual">
+<div></div>
+
+    <button id="Calcular" onclick="calcular()">Calcular</button>
+    <script src="calcular.js"></script>
+
+    <div class="Contenedor_info">
+        <p>Salario bruto mensual</p>
+        <div class="result">
+            <p class="Cordoba">C$</p>
+            <p class="vuelto" id="Vuelto_Bruto">00000000.00</p>
+        </div>
+
+        <p>Deducción INSS</p>
+        <div class="result">
+            <p class="Cordoba">C$</p>
+            <p class="vuelto" id="Vuelto_INSS">00000000.00</p>
+        </div>
+
+        <p>Salario neto (luego de deducciones)</p>
+        <div class="result">
+            <p class="Cordoba">C$</p>
+            <p class="vuelto" id="Vuelto_Neto">00000000.00</p>
+        </div>
+
+        <p>Deducción Impuesto sobre la Renta (IR)</p>
+        <div class="result">
+            <p class="Cordoba">C$</p>
+            <p class="vuelto" id="Vuelto_IR">00000000.00</p>
+        </div>
+
+        <p>Salario total con deducciones</p>
+        <div class="result">
+            <p class="Cordoba">C$</p>
+            <p class="vuelto" id="Vuelto_Deducciones">00000000.00</p>
+        </div>
+
+    </div>
 
 
 
@@ -36,7 +103,11 @@
         </div>
 
         <p class="footer_p">Lorem ipsum dolor sit amet</p>
+
+
         
     </footer>
+
+    
 </body>
 </html>
