@@ -158,6 +158,7 @@ h1{
     top: 1387px;
 
     background: #01A1E9;
+    margin-bottom: 77px;
 }
 
 .estadistica{
@@ -214,6 +215,18 @@ h1{
 
 }
 
+.B_aplicacion a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* identical to box height, or 200% */
+    
+    text-decoration: none;
+    color: #FFFFFF
+}
+
 .T3{
     margin-top: 60px;
     display: flex;
@@ -229,7 +242,10 @@ h1{
     height: 75px;
     left: 567px;
     top: 716px;
-
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -239,4 +255,131 @@ h1{
 
     color: #6E29A9;
 
+}
+
+.T4{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.noticias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 97px;
+    
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.recuadros{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    margin-right: 15px;
+    
+    border-radius: 19px;
+    justify-content: flex-start;
+}
+
+.p_noricias{
+    position: absolute;
+    width: 298px;
+    height: 28px;
+    margin-top: 260px;
+    margin-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.p_noricias_abajo{
+    position: absolute;
+    width: 172px;
+    height: 16px;
+    margin-left: 15px;
+    margin-top: 308px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    width: 1512px;
+    height: 189px;
+    left: 0px;
+
+    background: #1B314F;
+}
+
+.logo_footer{
+    margin-left: 251px;
+}
+
+.barra_aguito{
+    display: block;
+    width: 142px;
+    height: 3px;
+    left: 251px;
+    top: 2331px;
+
+    background: #6E29A9;
+}
+
+.paguito{
+    width: 153px;
+    height: 40px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #6E29A9;
+}
+
+.footer_p{
+    width: 245px;
+    height: 40px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+
+    margin-left: 666px;
+
+    color: #FFFFFF;
 }
