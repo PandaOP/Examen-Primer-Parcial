@@ -37,7 +37,7 @@ function calcular(){
     var deducciones = document.getElementById("Vuelto_Deducciones")
     deducciones.innerHTML=Salario_Sin_IR.toFixed(2)
     } else{
-        alert("TE PICA EL CULO CHAVALO JODIDO COMO VAS A CALCULAR SALARIO NEGATIVO")
+        alert("SALARIO NO VALIDO")
         
     }
    
