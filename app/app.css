@@ -341,7 +341,7 @@ footer{
     background: #1B314F;
 }
 
-.logo_footer{
+.log_aguito{
     margin-left: 251px;
 }
 
@@ -382,4 +382,101 @@ footer{
     margin-left: 666px;
 
     color: #FFFFFF;
+}
+
+.P2{
+    margin-top: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 74px;
+}
+
+.P2_p{
+    width: 795px;
+    height: 75px;
+    left: 375px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+
+
+
+    color: #8200FF;
+
+}
+
+.parrafos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.parrafo_2{
+    width: 741px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.telefono{
+    width: 366px;
+    height: 250px;
+}
+
+h3{
+    width: 596px;
+    height: 56px;
+    margin-left: 120px;
+    margin-top: 142px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #1B314F;
+
+}
+
+.Parrafo_2{
+    margin-left: 120px;
+    width: 1118px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+h4{
+    margin-left: 120px;
+    margin-top: 162px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #523E97;
+}
+
+.lista{
+    margin-top: 17px;
+    margin-left: 197px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 117px;
+    color: #000000;
 }
